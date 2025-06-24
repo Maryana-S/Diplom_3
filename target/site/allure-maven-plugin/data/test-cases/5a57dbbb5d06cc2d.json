@@ -1,28 +1,28 @@
 {
-  "uid" : "9440924983553696",
-  "name" : "Успешный вход в систему с главной страницы сайта",
-  "fullName" : "site.nomoreparties.stellarburgers.tests.LoginTest.successLoginFromMainPageTest",
-  "historyId" : "ad1a847e497b21f7dad4a794b183d59a",
+  "uid" : "5a57dbbb5d06cc2d",
+  "name" : "Успешный вход в систему через кнопку 'Войти' под формой регистрации",
+  "fullName" : "site.nomoreparties.stellarburgers.tests.LoginTest.successLoginFromRegistrationFormTest",
+  "historyId" : "1aec11388acad8cc5368069b11389714",
   "time" : {
-    "start" : 1750686991316,
-    "stop" : 1750686998140,
-    "duration" : 6824
+    "start" : 1750777530094,
+    "stop" : 1750777534289,
+    "duration" : 4195
   },
-  "description" : "Переход в форму входа в личный кабинет через кнопку 'Войти в аккаунт' на главной странице",
-  "descriptionHtml" : "<p>Переход в форму входа в личный кабинет через кнопку 'Войти в аккаунт' на главной странице</p>\n",
+  "description" : "Переход в форму входа в личный кабинет через кнопку 'Войти' под формой регистрации",
+  "descriptionHtml" : "<p>Переход в форму входа в личный кабинет через кнопку 'Войти' под формой регистрации</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Переход в форму входа в личный кабинет через кнопку 'Войти в аккаунт' на главной странице",
+    "description" : "Переход в форму входа в личный кабинет через кнопку 'Войти' под формой регистрации",
     "status" : "passed",
     "steps" : [ {
       "name" : "Открытие в браузере главной страницы сайта Stellar Burgers",
       "time" : {
-        "start" : 1750686991316,
-        "stop" : 1750686992973,
-        "duration" : 1657
+        "start" : 1750777530094,
+        "stop" : 1750777531733,
+        "duration" : 1639
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,53 +30,53 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Инициализация параметров name, emil, password; регистрация пользователя в сисиеме",
       "time" : {
-        "start" : 1750686992973,
-        "stop" : 1750686995676,
-        "duration" : 2703
+        "start" : 1750777531734,
+        "stop" : 1750777531951,
+        "duration" : 217
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Отправка POST запроса на эндпоинт /api/auth/register. Регистрация пользователя, получение accessToken",
         "time" : {
-          "start" : 1750686992979,
-          "stop" : 1750686995676,
-          "duration" : 2697
+          "start" : 1750777531734,
+          "stop" : 1750777531951,
+          "duration" : 217
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "name",
-          "value" : "R8uekQ1@ya.ru"
+          "value" : "ZVJYgMD@ya.ru"
         }, {
           "name" : "email",
-          "value" : "passIoOFPtANg"
+          "value" : "passXIDcqZgtY"
         }, {
           "name" : "password",
-          "value" : "mhQczfcD4C"
+          "value" : "QoSJvdiASj"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 1,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Клик по кнопке 'Войти в аккаунт'",
+      "name" : "Клик по кнопке 'Войти' под формой регистрации",
       "time" : {
-        "start" : 1750686995680,
-        "stop" : 1750686995757,
-        "duration" : 77
+        "start" : 1750777532158,
+        "stop" : 1750777532361,
+        "duration" : 203
       },
       "status" : "passed",
       "steps" : [ ],
@@ -84,58 +84,58 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Заполнение формы входа и клик по кнопке 'Войти'",
       "time" : {
-        "start" : 1750686995763,
-        "stop" : 1750686995940,
-        "duration" : 177
+        "start" : 1750777532361,
+        "stop" : 1750777532518,
+        "duration" : 157
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Ввод значения в поле 'Email'",
         "time" : {
-          "start" : 1750686995764,
-          "stop" : 1750686995832,
-          "duration" : 68
+          "start" : 1750777532361,
+          "stop" : 1750777532417,
+          "duration" : 56
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "email",
-          "value" : "R8uekQ1@ya.ru"
+          "value" : "ZVJYgMD@ya.ru"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Ввод значения в поле 'Пароль'",
         "time" : {
-          "start" : 1750686995833,
-          "stop" : 1750686995885,
-          "duration" : 52
+          "start" : 1750777532417,
+          "stop" : 1750777532474,
+          "duration" : 57
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "password",
-          "value" : "passIoOFPtANg"
+          "value" : "passXIDcqZgtY"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Клик по кнопке 'Войти'",
         "time" : {
-          "start" : 1750686995886,
-          "stop" : 1750686995940,
-          "duration" : 54
+          "start" : 1750777532474,
+          "stop" : 1750777532518,
+          "duration" : 44
         },
         "status" : "passed",
         "steps" : [ ],
@@ -143,27 +143,27 @@
         "parameters" : [ ],
         "stepsCount" : 0,
         "hasContent" : false,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "email",
-        "value" : "R8uekQ1@ya.ru"
+        "value" : "ZVJYgMD@ya.ru"
       }, {
         "name" : "password",
-        "value" : "passIoOFPtANg"
+        "value" : "passXIDcqZgtY"
       } ],
       "stepsCount" : 3,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Проверка отображения кнопки 'Оформить заказ'",
       "time" : {
-        "start" : 1750686995940,
-        "stop" : 1750686996505,
-        "duration" : 565
+        "start" : 1750777532518,
+        "stop" : 1750777533053,
+        "duration" : 535
       },
       "status" : "passed",
       "steps" : [ ],
@@ -171,14 +171,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Клик по кнопке 'Личный Кабинет'",
       "time" : {
-        "start" : 1750686996508,
-        "stop" : 1750686996560,
-        "duration" : 52
+        "start" : 1750777533053,
+        "stop" : 1750777533102,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -186,22 +186,22 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Проверка соответствия имени и логина пользователя в личном кабинете введённым значениям",
       "time" : {
-        "start" : 1750686996565,
-        "stop" : 1750686997132,
-        "duration" : 567
+        "start" : 1750777533102,
+        "stop" : 1750777533658,
+        "duration" : 556
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Получение значения поля 'Имя'",
         "time" : {
-          "start" : 1750686996565,
-          "stop" : 1750686997108,
-          "duration" : 543
+          "start" : 1750777533102,
+          "stop" : 1750777533636,
+          "duration" : 534
         },
         "status" : "passed",
         "steps" : [ ],
@@ -209,14 +209,14 @@
         "parameters" : [ ],
         "stepsCount" : 0,
         "hasContent" : false,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Получение значения поля 'Логин'",
         "time" : {
-          "start" : 1750686997108,
-          "stop" : 1750686997132,
-          "duration" : 24
+          "start" : 1750777533636,
+          "stop" : 1750777533658,
+          "duration" : 22
         },
         "status" : "passed",
         "steps" : [ ],
@@ -224,60 +224,60 @@
         "parameters" : [ ],
         "stepsCount" : 0,
         "hasContent" : false,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "name",
-        "value" : "mhQczfcD4C"
+        "value" : "QoSJvdiASj"
       }, {
         "name" : "login",
-        "value" : "R8uekQ1@ya.ru"
+        "value" : "ZVJYgMD@ya.ru"
       } ],
       "stepsCount" : 2,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Удаление созданного пользователя",
       "time" : {
-        "start" : 1750686997132,
-        "stop" : 1750686997818,
-        "duration" : 686
+        "start" : 1750777533658,
+        "stop" : 1750777534145,
+        "duration" : 487
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Отправка DELETE запроса на эндпоинт /api/auth/user. Удаление пользователя",
         "time" : {
-          "start" : 1750686997133,
-          "stop" : 1750686997818,
-          "duration" : 685
+          "start" : 1750777533658,
+          "stop" : 1750777534145,
+          "duration" : 487
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "accessToken",
-          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTk1Y2Y4OWVkMjgwMDAxYjYzMGViMyIsImlhdCI6MTc1MDY4Njk2OCwiZXhwIjoxNzUwNjg4MTY4fQ.rSeU8750Gg-43zhTND70OJ9ISrvrRjL5VGjRJzJorfM"
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NWFiZTlhOWVkMjgwMDAxYjYzMjNiZSIsImlhdCI6MTc1MDc3NzQ5OCwiZXhwIjoxNzUwNzc4Njk4fQ.JCICk7dtmIsGpp7-U8vcR8fz-5LrpAzSX90HmKepPKc"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 1,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Закрытие браузера",
       "time" : {
-        "start" : 1750686997818,
-        "stop" : 1750686998140,
-        "duration" : 322
+        "start" : 1750777534145,
+        "stop" : 1750777534289,
+        "duration" : 144
       },
       "status" : "passed",
       "steps" : [ ],
@@ -285,15 +285,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 16,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -304,7 +304,7 @@
     "value" : "site.nomoreparties.stellarburgers.tests.LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "successLoginFromMainPageTest"
+    "value" : "successLoginFromRegistrationFormTest"
   }, {
     "name" : "suite",
     "value" : "site.nomoreparties.stellarburgers.tests.LoginTest"
@@ -313,7 +313,7 @@
     "value" : "matebook_stolyk"
   }, {
     "name" : "thread",
-    "value" : "14828@matebook_stolyk.main(1)"
+    "value" : "19632@matebook_stolyk.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -334,6 +334,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9440924983553696.json",
+  "source" : "5a57dbbb5d06cc2d.json",
   "parameterValues" : [ ]
 }

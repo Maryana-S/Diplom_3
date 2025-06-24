@@ -1,28 +1,28 @@
 {
-  "uid" : "8c9293834cccee71",
-  "name" : "Ошибка регистрации пользователя при вводе пароля длинной менее 6 символов",
-  "fullName" : "site.nomoreparties.stellarburgers.tests.RegistrationTest.registrationTest",
-  "historyId" : "b21cb9dc53ab9ce72651401e4a1122bb",
+  "uid" : "c41ac6b64e05149b",
+  "name" : "Успещная регистрация пользователя в системе с корректными значениями имя, email, пароль",
+  "fullName" : "site.nomoreparties.stellarburgers.tests.RegistrationTest.registrationAllCorrectParamSuccessTest",
+  "historyId" : "182a68e04fc5d0935e1d545a2a1d9968",
   "time" : {
-    "start" : 1750687013523,
-    "stop" : 1750687015726,
-    "duration" : 2203
+    "start" : 1750777542197,
+    "stop" : 1750777544902,
+    "duration" : 2705
   },
-  "description" : "Переход на страницу /register, вввод некорректного значения в поле формы 'Пароль', отображение ошибки",
-  "descriptionHtml" : "<p>Переход на страницу /register, вввод некорректного значения в поле формы 'Пароль', отображение ошибки</p>\n",
+  "description" : "Переход на страницу /register, вввод корректных значений во все поля формы, успешный переход на страницу 'Вход'",
+  "descriptionHtml" : "<p>Переход на страницу /register, вввод корректных значений во все поля формы, успешный переход на страницу 'Вход'</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "description" : "Переход на страницу /register, вввод некорректного значения в поле формы 'Пароль', отображение ошибки",
+    "description" : "Переход на страницу /register, вввод корректных значений во все поля формы, успешный переход на страницу 'Вход'",
     "status" : "passed",
     "steps" : [ {
       "name" : "Открытие в браузере главной страницы сайта Stellar Burgers",
       "time" : {
-        "start" : 1750687013523,
-        "stop" : 1750687014974,
-        "duration" : 1451
+        "start" : 1750777542197,
+        "stop" : 1750777543762,
+        "duration" : 1565
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,76 +30,76 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Заполнение формы регистрации и клик по кнопке 'Регистрация'",
       "time" : {
-        "start" : 1750687015135,
-        "stop" : 1750687015408,
-        "duration" : 273
+        "start" : 1750777543920,
+        "stop" : 1750777544189,
+        "duration" : 269
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Ввод значения в поле 'Имя'",
         "time" : {
-          "start" : 1750687015135,
-          "stop" : 1750687015204,
-          "duration" : 69
+          "start" : 1750777543920,
+          "stop" : 1750777543984,
+          "duration" : 64
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "name",
-          "value" : "A4nhBKB6uT"
+          "value" : "Ly9g623r6S"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Ввод значения в поле 'Email'",
         "time" : {
-          "start" : 1750687015204,
-          "stop" : 1750687015250,
-          "duration" : 46
+          "start" : 1750777543984,
+          "stop" : 1750777544033,
+          "duration" : 49
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "email",
-          "value" : "bYkk2@ya.ru"
+          "value" : "4AtvN@ya.ru"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Ввод значения в поле 'Пароль'",
         "time" : {
-          "start" : 1750687015250,
-          "stop" : 1750687015293,
-          "duration" : 43
+          "start" : 1750777544033,
+          "stop" : 1750777544080,
+          "duration" : 47
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "password",
-          "value" : "badps"
+          "value" : "passYimUjFY75"
         } ],
         "stepsCount" : 0,
         "hasContent" : true,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Клик по кнопке 'Регистрация'",
         "time" : {
-          "start" : 1750687015293,
-          "stop" : 1750687015408,
-          "duration" : 115
+          "start" : 1750777544080,
+          "stop" : 1750777544189,
+          "duration" : 109
         },
         "status" : "passed",
         "steps" : [ ],
@@ -107,30 +107,30 @@
         "parameters" : [ ],
         "stepsCount" : 0,
         "hasContent" : false,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "name",
-        "value" : "A4nhBKB6uT"
+        "value" : "Ly9g623r6S"
       }, {
         "name" : "email",
-        "value" : "bYkk2@ya.ru"
+        "value" : "4AtvN@ya.ru"
       }, {
         "name" : "password",
-        "value" : "badps"
+        "value" : "passYimUjFY75"
       } ],
       "stepsCount" : 4,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Проверка отображения сообщения об ошибке 'Некорректный пароль'",
+      "name" : "Проверка отображения заголовка формы 'Вход'",
       "time" : {
-        "start" : 1750687015410,
-        "stop" : 1750687015439,
-        "duration" : 29
+        "start" : 1750777544189,
+        "stop" : 1750777544739,
+        "duration" : 550
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,14 +138,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Закрытие браузера",
       "time" : {
-        "start" : 1750687015439,
-        "stop" : 1750687015726,
-        "duration" : 287
+        "start" : 1750777544739,
+        "stop" : 1750777544902,
+        "duration" : 163
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,15 +153,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 8,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -172,7 +172,7 @@
     "value" : "site.nomoreparties.stellarburgers.tests.RegistrationTest"
   }, {
     "name" : "testMethod",
-    "value" : "registrationTest"
+    "value" : "registrationAllCorrectParamSuccessTest"
   }, {
     "name" : "suite",
     "value" : "site.nomoreparties.stellarburgers.tests.RegistrationTest"
@@ -181,7 +181,7 @@
     "value" : "matebook_stolyk"
   }, {
     "name" : "thread",
-    "value" : "14828@matebook_stolyk.main(1)"
+    "value" : "19632@matebook_stolyk.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -202,6 +202,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8c9293834cccee71.json",
+  "source" : "c41ac6b64e05149b.json",
   "parameterValues" : [ ]
 }

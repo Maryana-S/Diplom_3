@@ -1,12 +1,12 @@
 {
-  "uid" : "25092085c77e6949",
+  "uid" : "1bff80597f6a8150",
   "name" : "Успешный переход во вкладку 'Соусы' в конструкторе",
   "fullName" : "site.nomoreparties.stellarburgers.tests.ConstructorNavigatingTest.moveToSouseTabSuccessTest",
   "historyId" : "150cf09917e67bfdb4df56daf806d794",
   "time" : {
-    "start" : 1750686984741,
-    "stop" : 1750686991310,
-    "duration" : 6569
+    "start" : 1750777520890,
+    "stop" : 1750777523857,
+    "duration" : 2967
   },
   "description" : "Проверка перехода во вкладку 'Соусы' в конструкторе: в названии класса активной вкладки имеется значение current, заголовок 'Соусы' отображается под панелью вкладок",
   "descriptionHtml" : "<p>Проверка перехода во вкладку 'Соусы' в конструкторе: в названии класса активной вкладки имеется значение current, заголовок 'Соусы' отображается под панелью вкладок</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "Открытие в браузере главной страницы сайта Stellar Burgers",
       "time" : {
-        "start" : 1750686984741,
-        "stop" : 1750686987882,
-        "duration" : 3141
+        "start" : 1750777520890,
+        "stop" : 1750777522475,
+        "duration" : 1585
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,14 +30,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Получить точку с расположением заголовка 'Булки' в конструкторе",
       "time" : {
-        "start" : 1750686987882,
-        "stop" : 1750686987904,
-        "duration" : 22
+        "start" : 1750777522475,
+        "stop" : 1750777522493,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -45,14 +45,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Клик по вкладке 'Соусы'",
       "time" : {
-        "start" : 1750686987905,
-        "stop" : 1750686987960,
-        "duration" : 55
+        "start" : 1750777522493,
+        "stop" : 1750777522606,
+        "duration" : 113
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,14 +60,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Проверка, выбрана ли вкладка 'Соусы', по наличию в названии класа атрибута current",
       "time" : {
-        "start" : 1750686987960,
-        "stop" : 1750686987974,
-        "duration" : 14
+        "start" : 1750777522607,
+        "stop" : 1750777522616,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,32 +75,32 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Проверка, что заголовок 'Соусы' находится под панелью с вкладками",
       "time" : {
-        "start" : 1750686987974,
-        "stop" : 1750686990991,
-        "duration" : 3017
+        "start" : 1750777522617,
+        "stop" : 1750777523680,
+        "duration" : 1063
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "topHeaderLocation",
-        "value" : "(196, 243)"
+        "value" : "(220, 243)"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Закрытие браузера",
       "time" : {
-        "start" : 1750686990991,
-        "stop" : 1750686991310,
-        "duration" : 319
+        "start" : 1750777523680,
+        "stop" : 1750777523857,
+        "duration" : 177
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,15 +108,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 6,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -136,7 +136,7 @@
     "value" : "matebook_stolyk"
   }, {
     "name" : "thread",
-    "value" : "14828@matebook_stolyk.main(1)"
+    "value" : "19632@matebook_stolyk.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -157,6 +157,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "25092085c77e6949.json",
+  "source" : "1bff80597f6a8150.json",
   "parameterValues" : [ ]
 }

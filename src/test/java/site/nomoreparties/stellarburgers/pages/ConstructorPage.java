@@ -4,12 +4,6 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
-
-import static org.junit.Assert.assertEquals;
 
 public class ConstructorPage {
 
@@ -18,6 +12,8 @@ public class ConstructorPage {
     public ConstructorPage(WebDriver driver) {
         this.driver = driver;
     }
+
+    public final static int TRY_COUNT = 100;
 
     // Вкладка 'Булки'
     private By bunsTab = By.xpath(".//*[contains(@class, 'tab') and ./*[text() = 'Булки']]");
@@ -77,21 +73,6 @@ public class ConstructorPage {
         return isSelected;
     }
 
-    @Step("Отображается ли заголовок 'Булки' в теле конструктора")
-    public boolean isVisibleBuns() {
-        return driver.findElement(bunsHeader).isDisplayed();
-    }
-
-    @Step("Отображается ли заголовок 'Соусы' в теле конструктора")
-    public boolean isVisibleSouses() {
-        return driver.findElement(sousesHeader).isDisplayed();
-    }
-
-    @Step("Отображается ли заголовок 'Начинки' в теле конструктора")
-    public boolean isVisibleFillings() {
-        return driver.findElement(fillingsHeader).isDisplayed();
-    }
-
     @Step("Получить точку с расположением заголовка 'Булки' в конструкторе")
     public Point getBunsPoint() {
         int offset = 40;
@@ -101,23 +82,38 @@ public class ConstructorPage {
     }
 
     @Step("Проверка, что заголовок 'Соусы' находится под панелью с вкладками")
-    public boolean isSousesInTop(Point topHeaderLocation) throws InterruptedException {
-        Thread.sleep(3000); // Ожидание прокрутки до содержимого выбранной вкладки
-        Point sousesLocation = driver.findElement(sousesHeader).getLocation();
+    public boolean isSousesInTop(Point topHeaderLocation) {
+        Point sousesLocation = new Point(0, 0);
+        for (int i = 0; i < TRY_COUNT; i++) {
+            if (sousesLocation != topHeaderLocation) {
+                sousesLocation = driver.findElement(sousesHeader).getLocation();
+            }
+        }
+
         return topHeaderLocation.equals(sousesLocation);
     }
 
     @Step("Проверка, что заголовок 'Начинки' находится под панелью с вкладками")
-    public boolean isFillingsInTop(Point topHeaderLocation) throws InterruptedException {
-        Thread.sleep(3000); // Ожидание прокрутки до содержимого выбранной вкладки
-        Point fillingLocation = driver.findElement(fillingsHeader).getLocation();
+    public boolean isFillingsInTop(Point topHeaderLocation) {
+        Point fillingLocation = new Point(0, 0);
+        for (int i = 0; i < TRY_COUNT; i++) {
+            if (fillingLocation != topHeaderLocation) {
+                fillingLocation = driver.findElement(fillingsHeader).getLocation();
+            }
+        }
+
         return topHeaderLocation.equals(fillingLocation);
     }
 
     @Step("Проверка, что заголовок 'Булки' находится под панелью с вкладками")
-    public boolean isBunsInTop(Point topHeaderLocation) throws InterruptedException {
-        Thread.sleep(3000); // Ожидание прокрутки до содержимого выбранной вкладки
-        Point bunsLocation = driver.findElement(bunsHeader).getLocation();
+    public boolean isBunsInTop(Point topHeaderLocation) {
+        Point bunsLocation = new Point(0, 0);
+        for (int i = 0; i < TRY_COUNT; i++) {
+            if (bunsLocation != topHeaderLocation) {
+                bunsLocation = driver.findElement(bunsHeader).getLocation();
+            }
+        }
+
         return topHeaderLocation.equals(bunsLocation);
     }
 

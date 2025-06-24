@@ -1,12 +1,12 @@
 {
-  "uid" : "2c29e5101dedaf8b",
+  "uid" : "f62ad32556a8ce5b",
   "name" : "Успешный переход во вкладку 'Начинки' в конструкторе",
   "fullName" : "site.nomoreparties.stellarburgers.tests.ConstructorNavigatingTest.moveToFillingsTabSuccessTest",
   "historyId" : "a745fa1f627c7bd97a1fc208d534b0fc",
   "time" : {
-    "start" : 1750686973268,
-    "stop" : 1750686979555,
-    "duration" : 6287
+    "start" : 1750777514020,
+    "stop" : 1750777517739,
+    "duration" : 3719
   },
   "description" : "Проверка перехода во вкладку 'Начинки' в конструкторе: в названии класса активной вкладки имеется значение current, заголовок 'Начинки' отображается под панелью вкладок",
   "descriptionHtml" : "<p>Проверка перехода во вкладку 'Начинки' в конструкторе: в названии класса активной вкладки имеется значение current, заголовок 'Начинки' отображается под панелью вкладок</p>\n",
@@ -20,9 +20,9 @@
     "steps" : [ {
       "name" : "Открытие в браузере главной страницы сайта Stellar Burgers",
       "time" : {
-        "start" : 1750686973301,
-        "stop" : 1750686975965,
-        "duration" : 2664
+        "start" : 1750777514045,
+        "stop" : 1750777516163,
+        "duration" : 2118
       },
       "status" : "passed",
       "steps" : [ ],
@@ -30,14 +30,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Получить точку с расположением заголовка 'Булки' в конструкторе",
       "time" : {
-        "start" : 1750686975977,
-        "stop" : 1750686976000,
-        "duration" : 23
+        "start" : 1750777516174,
+        "stop" : 1750777516205,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ ],
@@ -45,14 +45,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Клик по вкладке 'Начинки'",
       "time" : {
-        "start" : 1750686976000,
-        "stop" : 1750686976130,
-        "duration" : 130
+        "start" : 1750777516205,
+        "stop" : 1750777516325,
+        "duration" : 120
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,14 +60,14 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Проверка, выбрана ли вкладка 'Начинки', по наличию в названии класа атрибута current",
       "time" : {
-        "start" : 1750686976130,
-        "stop" : 1750686976147,
-        "duration" : 17
+        "start" : 1750777516326,
+        "stop" : 1750777516345,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,32 +75,32 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Проверка, что заголовок 'Начинки' находится под панелью с вкладками",
       "time" : {
-        "start" : 1750686976150,
-        "stop" : 1750686979173,
-        "duration" : 3023
+        "start" : 1750777516346,
+        "stop" : 1750777517528,
+        "duration" : 1182
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "topHeaderLocation",
-        "value" : "(196, 243)"
+        "value" : "(220, 243)"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Закрытие браузера",
       "time" : {
-        "start" : 1750686979173,
-        "stop" : 1750686979553,
-        "duration" : 380
+        "start" : 1750777517528,
+        "stop" : 1750777517736,
+        "duration" : 208
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,15 +108,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 6,
     "hasContent" : true,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -136,7 +136,7 @@
     "value" : "matebook_stolyk"
   }, {
     "name" : "thread",
-    "value" : "14828@matebook_stolyk.main(1)"
+    "value" : "19632@matebook_stolyk.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -157,6 +157,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2c29e5101dedaf8b.json",
+  "source" : "f62ad32556a8ce5b.json",
   "parameterValues" : [ ]
 }

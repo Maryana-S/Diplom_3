@@ -3,126 +3,126 @@
   "children" : [ {
     "name" : "matebook_stolyk",
     "children" : [ {
-      "name" : "14828@matebook_stolyk.main(1)",
+      "name" : "19632@matebook_stolyk.main(1)",
       "children" : [ {
-        "name" : "Успешный переход во вкладку 'Начинки' в конструкторе",
-        "uid" : "2c29e5101dedaf8b",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1750686973268,
-          "stop" : 1750686979555,
-          "duration" : 6287
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Успешный переход во вкладку 'Булки' в конструкторе",
-        "uid" : "b2209cde5109e301",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1750686979635,
-          "stop" : 1750686984735,
-          "duration" : 5100
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Успешный вход в систему через кнопку 'Личный кабинет' в хедере",
-        "uid" : "e8828d4e08f7d93e",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
+        "uid" : "1fa556bfc2625680",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
         "status" : "passed",
         "time" : {
-          "start" : 1750687002379,
-          "stop" : 1750687006475,
-          "duration" : 4096
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Успешный вход в систему через кнопку 'Войти' под формой регистрации",
-        "uid" : "5eb8f89d6b0a3280",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1750686998143,
-          "stop" : 1750687002379,
-          "duration" : 4236
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Успешный вход в систему с главной страницы сайта",
-        "uid" : "9440924983553696",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1750686991316,
-          "stop" : 1750686998140,
-          "duration" : 6824
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Успешный вход в систему через кнопку 'Восстановить пароль' под формой входа",
-        "uid" : "9ba3c6ed1baf3dbf",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1750687006479,
-          "stop" : 1750687010740,
-          "duration" : 4261
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Успешный переход во вкладку 'Соусы' в конструкторе",
-        "uid" : "25092085c77e6949",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1750686984741,
-          "stop" : 1750686991310,
-          "duration" : 6569
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Ошибка регистрации пользователя при вводе пароля длинной менее 6 символов",
-        "uid" : "8c9293834cccee71",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1750687013523,
-          "stop" : 1750687015726,
-          "duration" : 2203
+          "start" : 1750777534293,
+          "stop" : 1750777538084,
+          "duration" : 3791
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Успещная регистрация пользователя в системе с корректными значениями имя, email, пароль",
-        "uid" : "636793d9255e9ada",
-        "parentUid" : "b6a737159c370362d31a3022d3e8b7eb",
+        "uid" : "c41ac6b64e05149b",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
         "status" : "passed",
         "time" : {
-          "start" : 1750687010740,
-          "stop" : 1750687013520,
-          "duration" : 2780
+          "start" : 1750777542197,
+          "stop" : 1750777544902,
+          "duration" : 2705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный переход во вкладку 'Булки' в конструкторе",
+        "uid" : "7f82c382edadeef0",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750777517832,
+          "stop" : 1750777520886,
+          "duration" : 3054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный вход в систему с главной страницы сайта",
+        "uid" : "d6a016e5a4e922d",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750777523862,
+          "stop" : 1750777530091,
+          "duration" : 6229
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный вход в систему через кнопку 'Восстановить пароль' под формой входа",
+        "uid" : "74353c810081810",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750777538088,
+          "stop" : 1750777542195,
+          "duration" : 4107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный переход во вкладку 'Соусы' в конструкторе",
+        "uid" : "1bff80597f6a8150",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750777520890,
+          "stop" : 1750777523857,
+          "duration" : 2967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Ошибка регистрации пользователя при вводе пароля длинной менее 6 символов",
+        "uid" : "df331d48944d521d",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750777544905,
+          "stop" : 1750777547079,
+          "duration" : 2174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный вход в систему через кнопку 'Войти' под формой регистрации",
+        "uid" : "5a57dbbb5d06cc2d",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750777530094,
+          "stop" : 1750777534289,
+          "duration" : 4195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный переход во вкладку 'Начинки' в конструкторе",
+        "uid" : "f62ad32556a8ce5b",
+        "parentUid" : "d06bcfd0c20bcc7434ed83f22da4d2da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750777514020,
+          "stop" : 1750777517739,
+          "duration" : 3719
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b6a737159c370362d31a3022d3e8b7eb"
+      "uid" : "d06bcfd0c20bcc7434ed83f22da4d2da"
     } ],
     "uid" : "a1592db4b49c1946555771d658c19498"
   } ],
