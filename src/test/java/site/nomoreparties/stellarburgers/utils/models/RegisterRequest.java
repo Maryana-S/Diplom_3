@@ -1,4 +1,4 @@
-package site.nomoreparties.stellarburgers.utils;
+package site.nomoreparties.stellarburgers.utils.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,4 +14,5 @@ public class RegisterRequest {
     private String password;
 
     private String name;
+
 }

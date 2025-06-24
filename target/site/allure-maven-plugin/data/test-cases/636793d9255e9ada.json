@@ -1,0 +1,207 @@
+{
+  "uid" : "636793d9255e9ada",
+  "name" : "Успещная регистрация пользователя в системе с корректными значениями имя, email, пароль",
+  "fullName" : "site.nomoreparties.stellarburgers.tests.RegistrationTest.registrationAllCorrectParamSuccessTest",
+  "historyId" : "182a68e04fc5d0935e1d545a2a1d9968",
+  "time" : {
+    "start" : 1750687010740,
+    "stop" : 1750687013520,
+    "duration" : 2780
+  },
+  "description" : "Переход на страницу /register, вввод корректных значений во все поля формы, успешный переход на страницу 'Вход'",
+  "descriptionHtml" : "<p>Переход на страницу /register, вввод корректных значений во все поля формы, успешный переход на страницу 'Вход'</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Переход на страницу /register, вввод корректных значений во все поля формы, успешный переход на страницу 'Вход'",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие в браузере главной страницы сайта Stellar Burgers",
+      "time" : {
+        "start" : 1750687010740,
+        "stop" : 1750687012312,
+        "duration" : 1572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Заполнение формы регистрации и клик по кнопке 'Регистрация'",
+      "time" : {
+        "start" : 1750687012468,
+        "stop" : 1750687012695,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод значения в поле 'Имя'",
+        "time" : {
+          "start" : 1750687012468,
+          "stop" : 1750687012538,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "rIysuiQJLq"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Ввод значения в поле 'Email'",
+        "time" : {
+          "start" : 1750687012539,
+          "stop" : 1750687012588,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "TESao@ya.ru"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Ввод значения в поле 'Пароль'",
+        "time" : {
+          "start" : 1750687012588,
+          "stop" : 1750687012637,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "passrHTNdHaAx"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Клик по кнопке 'Регистрация'",
+        "time" : {
+          "start" : 1750687012637,
+          "stop" : 1750687012695,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "rIysuiQJLq"
+      }, {
+        "name" : "email",
+        "value" : "TESao@ya.ru"
+      }, {
+        "name" : "password",
+        "value" : "passrHTNdHaAx"
+      } ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверка отображения заголовка формы 'Вход'",
+      "time" : {
+        "start" : 1750687012695,
+        "stop" : 1750687013241,
+        "duration" : 546
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Закрытие браузера",
+      "time" : {
+        "start" : 1750687013241,
+        "stop" : 1750687013520,
+        "duration" : 279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "site.nomoreparties.stellarburgers.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "site.nomoreparties.stellarburgers.tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationAllCorrectParamSuccessTest"
+  }, {
+    "name" : "suite",
+    "value" : "site.nomoreparties.stellarburgers.tests.RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "14828@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "636793d9255e9ada.json",
+  "parameterValues" : [ ]
+}

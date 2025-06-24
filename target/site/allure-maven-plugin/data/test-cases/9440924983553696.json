@@ -1,0 +1,339 @@
+{
+  "uid" : "9440924983553696",
+  "name" : "Успешный вход в систему с главной страницы сайта",
+  "fullName" : "site.nomoreparties.stellarburgers.tests.LoginTest.successLoginFromMainPageTest",
+  "historyId" : "ad1a847e497b21f7dad4a794b183d59a",
+  "time" : {
+    "start" : 1750686991316,
+    "stop" : 1750686998140,
+    "duration" : 6824
+  },
+  "description" : "Переход в форму входа в личный кабинет через кнопку 'Войти в аккаунт' на главной странице",
+  "descriptionHtml" : "<p>Переход в форму входа в личный кабинет через кнопку 'Войти в аккаунт' на главной странице</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Переход в форму входа в личный кабинет через кнопку 'Войти в аккаунт' на главной странице",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие в браузере главной страницы сайта Stellar Burgers",
+      "time" : {
+        "start" : 1750686991316,
+        "stop" : 1750686992973,
+        "duration" : 1657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Инициализация параметров name, emil, password; регистрация пользователя в сисиеме",
+      "time" : {
+        "start" : 1750686992973,
+        "stop" : 1750686995676,
+        "duration" : 2703
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка POST запроса на эндпоинт /api/auth/register. Регистрация пользователя, получение accessToken",
+        "time" : {
+          "start" : 1750686992979,
+          "stop" : 1750686995676,
+          "duration" : 2697
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "R8uekQ1@ya.ru"
+        }, {
+          "name" : "email",
+          "value" : "passIoOFPtANg"
+        }, {
+          "name" : "password",
+          "value" : "mhQczfcD4C"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Войти в аккаунт'",
+      "time" : {
+        "start" : 1750686995680,
+        "stop" : 1750686995757,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Заполнение формы входа и клик по кнопке 'Войти'",
+      "time" : {
+        "start" : 1750686995763,
+        "stop" : 1750686995940,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод значения в поле 'Email'",
+        "time" : {
+          "start" : 1750686995764,
+          "stop" : 1750686995832,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "R8uekQ1@ya.ru"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Ввод значения в поле 'Пароль'",
+        "time" : {
+          "start" : 1750686995833,
+          "stop" : 1750686995885,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "passIoOFPtANg"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Клик по кнопке 'Войти'",
+        "time" : {
+          "start" : 1750686995886,
+          "stop" : 1750686995940,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "R8uekQ1@ya.ru"
+      }, {
+        "name" : "password",
+        "value" : "passIoOFPtANg"
+      } ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверка отображения кнопки 'Оформить заказ'",
+      "time" : {
+        "start" : 1750686995940,
+        "stop" : 1750686996505,
+        "duration" : 565
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Клик по кнопке 'Личный Кабинет'",
+      "time" : {
+        "start" : 1750686996508,
+        "stop" : 1750686996560,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверка соответствия имени и логина пользователя в личном кабинете введённым значениям",
+      "time" : {
+        "start" : 1750686996565,
+        "stop" : 1750686997132,
+        "duration" : 567
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получение значения поля 'Имя'",
+        "time" : {
+          "start" : 1750686996565,
+          "stop" : 1750686997108,
+          "duration" : 543
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Получение значения поля 'Логин'",
+        "time" : {
+          "start" : 1750686997108,
+          "stop" : 1750686997132,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "mhQczfcD4C"
+      }, {
+        "name" : "login",
+        "value" : "R8uekQ1@ya.ru"
+      } ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удаление созданного пользователя",
+      "time" : {
+        "start" : 1750686997132,
+        "stop" : 1750686997818,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отправка DELETE запроса на эндпоинт /api/auth/user. Удаление пользователя",
+        "time" : {
+          "start" : 1750686997133,
+          "stop" : 1750686997818,
+          "duration" : 685
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "accessToken",
+          "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NTk1Y2Y4OWVkMjgwMDAxYjYzMGViMyIsImlhdCI6MTc1MDY4Njk2OCwiZXhwIjoxNzUwNjg4MTY4fQ.rSeU8750Gg-43zhTND70OJ9ISrvrRjL5VGjRJzJorfM"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Закрытие браузера",
+      "time" : {
+        "start" : 1750686997818,
+        "stop" : 1750686998140,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "site.nomoreparties.stellarburgers.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "site.nomoreparties.stellarburgers.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successLoginFromMainPageTest"
+  }, {
+    "name" : "suite",
+    "value" : "site.nomoreparties.stellarburgers.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "14828@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9440924983553696.json",
+  "parameterValues" : [ ]
+}
