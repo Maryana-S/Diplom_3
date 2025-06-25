@@ -1,0 +1,207 @@
+{
+  "uid" : "df331d48944d521d",
+  "name" : "Ошибка регистрации пользователя при вводе пароля длинной менее 6 символов",
+  "fullName" : "site.nomoreparties.stellarburgers.tests.RegistrationTest.registrationTest",
+  "historyId" : "b21cb9dc53ab9ce72651401e4a1122bb",
+  "time" : {
+    "start" : 1750777544905,
+    "stop" : 1750777547079,
+    "duration" : 2174
+  },
+  "description" : "Переход на страницу /register, вввод некорректного значения в поле формы 'Пароль', отображение ошибки",
+  "descriptionHtml" : "<p>Переход на страницу /register, вввод некорректного значения в поле формы 'Пароль', отображение ошибки</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Переход на страницу /register, вввод некорректного значения в поле формы 'Пароль', отображение ошибки",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие в браузере главной страницы сайта Stellar Burgers",
+      "time" : {
+        "start" : 1750777544905,
+        "stop" : 1750777546462,
+        "duration" : 1557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Заполнение формы регистрации и клик по кнопке 'Регистрация'",
+      "time" : {
+        "start" : 1750777546645,
+        "stop" : 1750777546866,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввод значения в поле 'Имя'",
+        "time" : {
+          "start" : 1750777546645,
+          "stop" : 1750777546706,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "KZ6UG1DGl4"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Ввод значения в поле 'Email'",
+        "time" : {
+          "start" : 1750777546706,
+          "stop" : 1750777546755,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "email",
+          "value" : "UgmoJ@ya.ru"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Ввод значения в поле 'Пароль'",
+        "time" : {
+          "start" : 1750777546755,
+          "stop" : 1750777546802,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "badps"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Клик по кнопке 'Регистрация'",
+        "time" : {
+          "start" : 1750777546803,
+          "stop" : 1750777546866,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "KZ6UG1DGl4"
+      }, {
+        "name" : "email",
+        "value" : "UgmoJ@ya.ru"
+      }, {
+        "name" : "password",
+        "value" : "badps"
+      } ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка отображения сообщения об ошибке 'Некорректный пароль'",
+      "time" : {
+        "start" : 1750777546866,
+        "stop" : 1750777546892,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Закрытие браузера",
+      "time" : {
+        "start" : 1750777546893,
+        "stop" : 1750777547079,
+        "duration" : 186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "site.nomoreparties.stellarburgers.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "site.nomoreparties.stellarburgers.tests.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationTest"
+  }, {
+    "name" : "suite",
+    "value" : "site.nomoreparties.stellarburgers.tests.RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "matebook_stolyk"
+  }, {
+    "name" : "thread",
+    "value" : "19632@matebook_stolyk.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df331d48944d521d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "site.nomoreparties.stellarburgers.tests.ConstructorNavigatingTest",
+    "children" : [ {
+      "name" : "Успешный переход во вкладку 'Начинки' в конструкторе",
+      "uid" : "f62ad32556a8ce5b",
+      "parentUid" : "d3c07d011e947b7442e525ce49f18039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777514020,
+        "stop" : 1750777517739,
+        "duration" : 3719
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный переход во вкладку 'Булки' в конструкторе",
+      "uid" : "7f82c382edadeef0",
+      "parentUid" : "d3c07d011e947b7442e525ce49f18039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777517832,
+        "stop" : 1750777520886,
+        "duration" : 3054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный переход во вкладку 'Соусы' в конструкторе",
+      "uid" : "1bff80597f6a8150",
+      "parentUid" : "d3c07d011e947b7442e525ce49f18039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777520890,
+        "stop" : 1750777523857,
+        "duration" : 2967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d3c07d011e947b7442e525ce49f18039"
+  }, {
+    "name" : "site.nomoreparties.stellarburgers.tests.LoginTest",
+    "children" : [ {
+      "name" : "Успешный вход в систему с главной страницы сайта",
+      "uid" : "d6a016e5a4e922d",
+      "parentUid" : "c0531e37af0ce01e51f18407e94e8010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777523862,
+        "stop" : 1750777530091,
+        "duration" : 6229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный вход в систему через кнопку 'Войти' под формой регистрации",
+      "uid" : "5a57dbbb5d06cc2d",
+      "parentUid" : "c0531e37af0ce01e51f18407e94e8010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777530094,
+        "stop" : 1750777534289,
+        "duration" : 4195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный вход в систему через кнопку 'Личный кабинет' в хедере",
+      "uid" : "1fa556bfc2625680",
+      "parentUid" : "c0531e37af0ce01e51f18407e94e8010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777534293,
+        "stop" : 1750777538084,
+        "duration" : 3791
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный вход в систему через кнопку 'Восстановить пароль' под формой входа",
+      "uid" : "74353c810081810",
+      "parentUid" : "c0531e37af0ce01e51f18407e94e8010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777538088,
+        "stop" : 1750777542195,
+        "duration" : 4107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0531e37af0ce01e51f18407e94e8010"
+  }, {
+    "name" : "site.nomoreparties.stellarburgers.tests.RegistrationTest",
+    "children" : [ {
+      "name" : "Успещная регистрация пользователя в системе с корректными значениями имя, email, пароль",
+      "uid" : "c41ac6b64e05149b",
+      "parentUid" : "d5fa627b9bb525a1c129f10f28a50a42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777542197,
+        "stop" : 1750777544902,
+        "duration" : 2705
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Ошибка регистрации пользователя при вводе пароля длинной менее 6 символов",
+      "uid" : "df331d48944d521d",
+      "parentUid" : "d5fa627b9bb525a1c129f10f28a50a42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1750777544905,
+        "stop" : 1750777547079,
+        "duration" : 2174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d5fa627b9bb525a1c129f10f28a50a42"
+  } ],
+  "name" : "suites"
+}
